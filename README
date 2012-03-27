@@ -1,4 +1,4 @@
-DShapeCreator gives the user an easy way to create Dia shapes.
+DShapeCreator gives the user an easy way to create Dia (http://projects.gnome.org/dia/) shapes.
 Copyright (C) Ruben Veger
 
 This program is free software; you can redistribute it and/or
@@ -25,4 +25,4 @@ Installation: copy the create.php and index.htm to the webfolder of your choice
 
 Usage: Fill in a name for the shape you want to create and select the images you want to upload and use for the shape. Click Create!
 
-Notes: In php.ini max_file_uploads should be set to the max amount of images you would like to upload. It may be a smart idea to increase the max_file_size to something like 256M
+Notes: In php.ini max_file_uploads should be set to the max amount of images you would like to upload. It may be a smart idea to increase the max_file_size to something like 512M
