@@ -1,6 +1,6 @@
 <?
 /*
-DShapeCreator gives the user an easy way to create Dia shapes.
+DShapeCreator 0.01 gives the user an easy way to create Dia shapes.
 Copyright (C) Ruben Veger
 
 This program is free software; you can redistribute it and/or
@@ -18,8 +18,10 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 Enjoy! Ruben Veger, rveger@gmail.com, Fultsemaheerd 2 9736CN Groningen, The Netherlands
 
-Notes: In php.ini max_file_uploads should be set to the max amount of images you would like to upload. It may be a smart idea to increase the max_file_size to something like 256M
+Notes: In php.ini max_file_uploads should be set to the max amount of images you would like to upload. It may be a smart idea to increase the max_file_size to something like 512M
 */
+// Turn off all error reporting
+error_reporting(0);
 
 // Shapename variable from index.htm
 $shapename = $_POST['shapename'];
